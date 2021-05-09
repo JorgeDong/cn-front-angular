@@ -37,6 +37,7 @@
                                     <li *ngIf="!isAuthenticated" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/signin">Sign In</a></li>
                                     <li *ngIf="!isAuthenticated" routerLinkActive="active"><a routerLink="/signup">Sign Up</a></li>
                                     <li *ngIf="isAuthenticated" routerLinkActive="active"><a routerLink="/products">productos</a></li>
+                                    <li *ngIf="isAuthenticated" routerLinkActive="active"><a routerLink="/profile">perfil</a></li>
                                     <li *ngIf="isAuthenticated" routerLinkActive="active"><a routerLink="/cart">carrito</a></li>
                                     <li *ngIf="isAuthenticated" routerLinkActive="active"><a routerLink="/pedidos">pedidos</a></li>
                                     <!-- <li *ngIf="isAuthenticated" routerLinkActive="active"><a routerLink="/products">productos</a></li> -->

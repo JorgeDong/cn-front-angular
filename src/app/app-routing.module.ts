@@ -10,6 +10,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { ProductsAuthComponent } from './pages/products-auth/products-auth.component';
 import { PedidosComponent } from './pages/pedidos/pedidos.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 const routes: Routes = [
   { path: '', component: ProductsComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'pedidos', component: PedidosComponent },
   { path: 'cart', component: CartComponent },
   { path: 'checkout', component: CheckoutComponent },
+  { path: 'profile', component: ProfileComponent}
   // { path: 'compare', canActivate: [AuthGuard], component: CompareComponent },
   
 ];

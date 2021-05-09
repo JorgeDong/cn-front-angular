@@ -20,6 +20,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { PedidosComponent } from './pages/pedidos/pedidos.component';
 import { ProductsAuthComponent } from './pages/products-auth/products-auth.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 // Import the library
 // import { NgxStripeModule } from 'ngx-stripe';
@@ -39,7 +40,8 @@ import { ProductsAuthComponent } from './pages/products-auth/products-auth.compo
     CartComponent,
     CheckoutComponent,
     PedidosComponent,
-    ProductsAuthComponent
+    ProductsAuthComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
